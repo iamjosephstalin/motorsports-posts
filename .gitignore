@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Environment Variables (Critical)
+.env
+
+# Streamlit
+.streamlit/
+
+# Output / Assets (Generated)
+output/
+# Keep structure but ignore contents if needed, or specific huge files
+# For now, let's ignore the review queue
+output/review_queue/*.png
+output/review_queue/*.mp4
+output/review_queue/*.mp3
+output/review_queue/*.jpg
+
+# Media
+*.mp4
+*.mp3
+*.png
+*.jpg
+assets/audio/*.mp3
+# Exception: branding might be tracked
+!assets/branding/
+
+# IDE
+.vscode/
+.idea/
